@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: beige;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"],
+select {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 22px;
+}
+input[type="email"], select{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 22px;
+}
+input[type="tel"], select{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 22px;
+}
+#gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+    width: 30px;
+    height: 15px;
+}
+input[type="date" i]{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 22px;
+}
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    font-size: 17px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}

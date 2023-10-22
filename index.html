@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Customer Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Customer Survey Form</h2>
+        <form id="surveyForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required>
+
+            <label for="country">Country:</label>
+            <select id="country" required>
+                <option value="Select The Country">Select The Country</option>
+                <option value="USA">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="India">India</option>
+                <option value="UK">UK</option>
+                <option value="France">Franc</option>
+                <option value="Germany">Germany</option>
+                <option value="Japan">Japan</option>
+                <option value="Denmark">Denmark</option>
+                <option value="U">UAE</option>
+            </select>
+
+            <label for="gender">Gender:</label>
+            <div id="gender">
+                <input type="checkbox" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="checkbox" id="female" value="Female">
+                <label for="female">Female</label>
+            </div>
+
+            <label for="profession">Profession:</label>
+            <input type="text" id="profession" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" required>
+
+            <button class="btn" type="button" id="submitBtn">Submit</button>
+            <button class="btn" type="button" id="resetBtn">Reset</button>
+        </form>
+    </div>
+</body>
+<script src="indeex.js"></script>
+</html>
